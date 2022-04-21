@@ -17,7 +17,7 @@ const ItemProvider = ({children})=>{
         is_update:false
     });
 
-    const url = "https://my-json-server.typicode.com/sirjandrn25/react_intern_task_avocado/users/";
+    const url = "https://my-json-server.typicode.com/sirjandrn25/react_intern_task_avocado/items/";
 
     const fetchItems = async ()=>{
         setLoading(true);
